@@ -1,0 +1,158 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+/* Apartado del body */
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F2F5F9;
+}
+
+/* Apartado del main */
+main{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #677489;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Apartado del figure */
+#figure-desing-img{
+    margin: 0px;
+    width: 100%;
+    height: 50%;
+
+    border-radius: 20px;
+}
+
+/* Imagen principal */
+#desing-img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Articulo container */
+#desing-description{
+    width: 100%;
+    height: 32%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#desing-section-container{
+    width: 80%;
+    height: 80%;
+}
+
+#desing-section-container h1{
+    font-size: 1.5em;
+}
+
+#desing-section-container p{
+    font-size: 1.15em;
+}
+
+/* Footer */
+#desing-footer{
+    width: 100%;
+    height: 18%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-top: solid 1.5px;
+    border-color:#c6cad2;;
+}
+
+#desing-footer-container{
+    width: 80%;
+    height: 70%;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Avatar img */
+#avatar-img{
+    width: 12%;
+    height: default;
+    border-radius: 100%;
+    border-style: ridge;
+}
+
+
+#desing-section-customer{
+    margin-left: 40px;
+    /* arriba derecha abajo izquierda */
+    margin: 10px 0px 0px 19px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#desing-section-customer h2{
+    margin: 0px;
+}
+
+#desing-section-customer p{
+    margin: 2px 0px 6px 0px;
+}
+
+
+/* Qeury para movil de 640px */
+
+@media screen and (max-width: 640px) {
+ 
+    main{
+        width: 60%;
+        height: 60%;
+    }
+
+    #desing-section-container h1{
+        font-size: 1.2em;
+    }
+
+    #desing-section-container p{
+        font-size: 0.9em;
+    }
+
+    #name-customer{
+        font-size: 1.1em;
+    }
+
+    #description-customer{
+        font-size: 0.8em;
+    }
+}
